@@ -128,4 +128,22 @@ section p {
 		left: 5%;
 		margin-top: 0;
 	}
+  
+table {
+    max-width: 100%;
+  }
+  td {
+    height: 40px;
+    border: thin solid;
+    overflow: hidden;
+    table-layout: fixed;
+    text-align: center; 
+    vertical-align: middle;
+  }
+  tr {
+    
+    background-color: white; 
+    text-align: center; 
+    vertical-align: middle;
+  }
 }
