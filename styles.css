@@ -133,10 +133,9 @@ table,
   th,
   td {
     border-radius: 1em;
-    border: thin solid;
+    border: thin solid red;
     border-collapse: collapse;
     text-align: center; 
     vertical-align: middle; 
     background-color: transparent;
 }
- 
