@@ -129,21 +129,14 @@ section p {
 		margin-top: 0;
 	}
   
-table {
-    max-width: 100%;
-  }
+table,
+  th,
   td {
-    height: 40px;
+    border-radius: 1em;
     border: thin solid;
-    overflow: hidden;
-    table-layout: fixed;
+    border-collapse: collapse;
     text-align: center; 
-    vertical-align: middle;
-  }
-  tr {
-    
-    background-color: white; 
-    text-align: center; 
-    vertical-align: middle;
-  }
+    vertical-align: middle; 
+    background-color: transparent;
 }
+ 
