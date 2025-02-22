@@ -41,7 +41,7 @@ section {
 	margin: 0 auto;
 	padding: 1em;
 	width: 40em;
-	background: transparent;
+	background:transparent;
 	list-style: none;
 }
 
@@ -53,8 +53,9 @@ section {
 	background: transparent;
 #	border: thin solid #204960;
 	border-radius: .5em;
-	line-height: 150%;
+	line-height: 190%;
 	font-family: Arial bold, Helvetica, sans-serif;
+  font-size: 18px;
 	margin: 0 0 0 1em;
 }
 
@@ -64,7 +65,7 @@ section {
 	text-decoration: none;
 	display: block;
 	height: 2em;
-	color: silver;
+	color: black;
 	font-weight: bold;
 	padding: 0.1em 1em;
 }
@@ -73,7 +74,7 @@ section {
 #navigation li a:focus,
 #navigation li a:active {
 	background: transparent;
-	color: silver;
+	color: blue;
 	border-radius: .5em;
 }
 
