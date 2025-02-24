@@ -41,7 +41,7 @@ section {
 	z-index: 99;
 	margin: 0 auto;
 	padding: 1em;
-	width: 80em;
+	width: 60em;
 	background:transparent;
 	list-style: none;
 }
@@ -56,7 +56,7 @@ section {
 	border-radius: .5em;
 	line-height: 190%;
 	font-family: Arial bold, Helvetica, sans-serif;
-  font-size: 1em;
+        font-size: 1em;
 	margin: 0 0 0 1em;
 }
 
@@ -155,18 +155,15 @@ section p {
 #table,
 tr,
 td {
-  
   border-radius: .5em;
     border: thin solid grey;
     border-collapse: collapse;
-		max-width:100%;
+    max-width:100%;
     float: left;
     text-align: center; 
     vertical-align: middle; 
     background-color: transparent;
 }
-
-
 
 @media screen and (max-width: 32em) {
 	section h2 {
@@ -178,4 +175,3 @@ td {
 		margin-top: 0;
 	}
  
-
