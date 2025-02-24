@@ -139,7 +139,9 @@ section p {
   border-radius: 5px;	
   padding: 2px;
   margin: 7.5px;
+ # font-color: ;	
   font-weight: bold;
+  vertical-align: middle;	
 }
 #table,
 tr,
