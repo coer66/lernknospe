@@ -128,7 +128,7 @@ section p {
 
 #grid {
    display: grid;
-   grid-template-columns: 220px 220px 220px;
+   grid-template-columns: 200px 200px 200px;
    column-gap: 15px;
    text-align: center;
  }
@@ -138,7 +138,7 @@ section p {
   border: 1px solid black;
   border-radius: 5px;	
   padding: 2px;
-  margin: 15px;
+  margin: 7.5px;
   font-weight: bold;
 }
 #table,
