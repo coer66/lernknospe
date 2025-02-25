@@ -134,7 +134,7 @@ section p {
 #flex-container > div {
    column-gap: 15px;
    text-align: center;
-   padding: 7.5px;
+   padding: .5em;
    border: 2px dotted;
 }
 #grid {
