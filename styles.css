@@ -74,7 +74,7 @@ section {
 #navigation li a:hover,
 #navigation li a:focus,
 #navigation li a:active {
-	background: transparent;
+	background: silver;
 	color: green;
 	border-radius: .5em;
 }
