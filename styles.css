@@ -56,8 +56,8 @@ section {
 	border-radius: .5em;
 	line-height: 190%;
 	font-family: Arial bold, Helvetica, sans-serif;
-        font-size: 1em;
-	margin: 0 0 0 1em;
+        font-size: 1.5em;
+	margin: 0 0 0 2em;
 }
 
 #navigation li a,
@@ -86,7 +86,7 @@ section > * {
 
 section h3 {
 	font-size: 1.5em;
-	text-align: justify;
+	text-align: left;
 	line-height: 2rem;
 	-webkit-backface-visibility: hidden;
 }
