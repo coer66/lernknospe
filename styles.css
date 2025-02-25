@@ -85,7 +85,7 @@ section > * {
 }
 
 section h3 {
-	font-size: 3em;
+	font-size: 1.5em;
 	text-align: left;
 	line-height: 2rem;
 	-webkit-backface-visibility: hidden;
@@ -171,7 +171,7 @@ td {
 
 @media screen and (max-width: 32em) {
 	section h2 {
-		font-size: 2em;
+		font-size: 1em;
 	}
 	section p {
 		width: 90%;
