@@ -67,7 +67,7 @@ section {
 	display: block;
 	height: 2em;
 	color: black;
-	font-weight: bold;
+#	font-weight: bold;
 	padding: 0.1em 1em;
 }
 
