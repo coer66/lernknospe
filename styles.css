@@ -84,9 +84,9 @@ section > * {
 	margin: 0.5em auto;
 }
 
-section h2 {
-	font-size: 4em;
-	text-align: center;
+section h3 {
+	font-size: 3em;
+	text-align: left;
 	line-height: 2rem;
 	-webkit-backface-visibility: hidden;
 }
