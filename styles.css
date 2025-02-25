@@ -1,11 +1,4 @@
-header {
-  background: url(img/bg-masthead.jpg);	 
-  background-repeat: no-repeat;
-	background-position: 100% center;
-  background-size: contain;
-  margin: 0;
-  height: 100vh;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
 	html,
@@ -21,7 +14,14 @@ header {
 		scroll-margin: 0;
 	}
 }
-
+header {
+  background: url(img/bg-masthead.jpg);	 
+  background-repeat: no-repeat;
+	background-position: 100% center;
+  background-size: contain;
+  margin: 0;
+  height: 100vh;
+}
 html,
 body {
 	position: relative;
