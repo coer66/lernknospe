@@ -111,13 +111,14 @@ section p {
 	margin-left: 1em;
 }
 #box {
-  width: 120px;
+  width: 160px;
   height: 60px;
   border: 1px solid black;
   border-radius: 5px;	
   padding: 10px;
   margin: 5px;
 }
+
 #footer {
 	all: none;
 }
@@ -144,6 +145,32 @@ section p {
    text-align: center;
  }
 #box1 {
+  width: 200px;
+  height: 24px;
+  border: 1px solid black;
+  border-radius: 5px;	
+  padding: 2px;
+  margin: 7.5px;
+  background-color: green;
+#  font-color: white;	
+  line-height: 160%;
+  font-weight: bold;
+  vertical-align: middle;	
+}
+#box2 {
+  width: 200px;
+  height: 24px;
+  border: 1px solid black;
+  border-radius: 5px;	
+  padding: 2px;
+  margin: 7.5px;
+  background-color: green;
+#  font-color: white;	
+  line-height: 160%;
+  font-weight: bold;
+  vertical-align: middle;	
+}
+#box3 {
   width: 200px;
   height: 24px;
   border: 1px solid black;
