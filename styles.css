@@ -118,6 +118,7 @@ section p {
    text-align: center;
    margin: 5px;
    border: 2px dotted;
+   flex-wrap: nowrap;
 }	
 #box {
   width: 150px;
