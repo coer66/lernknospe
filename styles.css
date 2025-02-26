@@ -110,6 +110,15 @@ section p {
 	float: right;
 	margin-left: 1em;
 }
+#flex-container1 {
+	display: flex;
+}
+#flex-container1 > div {
+   column-gap: 15px;
+   text-align: center;
+   margin: 5px;
+   border: 2px dotted;
+}	
 #box {
   width: 140px;
   height: 60px;
