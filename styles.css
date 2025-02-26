@@ -112,13 +112,14 @@ section p {
 }
 #flex-container1 {
 	display: flex;
+	flex-wrap: nowrap;
 }
 #flex-container1 > div {
    column-gap: 15px;
    text-align: center;
    margin: 5px;
    border: 2px dotted;
-   flex-wrap: nowrap;
+  
 }	
 #box {
   width: 150px;
