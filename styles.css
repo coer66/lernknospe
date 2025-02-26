@@ -113,6 +113,7 @@ section p {
 #flex-container1 {
 	display: flex;
 	flex-wrap: nowrap;
+	flex-direction: row;
 }
 #flex-container1 > div {
    column-gap: 15px;
