@@ -8,7 +8,22 @@
     <meta name="keywords" content="Kinesiologie , Waldbaden , Lernbegleitung">
   </head>
   <body>
-    <?php 
+    
+    <script type="text/javascript" src="custom.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet">
+    <nav>
+      <ul id="navigation">
+        <li><a href="#part_1" title="individuell entwickelte Lernbegleitung">LernKnospe</a></li>
+        <li><a href="#part_2"></a></li>
+        <li><a href="#part_3">Methoden</a> </li>
+        <li><a href="#part_4">Leistungen</a> </li>
+        <li><a href="#part_5">Kontakt</a> </li>
+      </ul>
+    </nav>
+    <section id="part_1" tabindex="1">
+      <header> </header>
+      <p><?php 
   if( isset($_COOKIE['setCookieHinweis']) ) { 
     $showPopup = false;
   } else {
@@ -27,20 +42,7 @@
     <button onclick='cookieOk()'>OK, ich bin einverstanden.</button>
   </div>
 <?php  }; ?>
-    <script type="text/javascript" src="custom.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-      rel="stylesheet">
-    <nav>
-      <ul id="navigation">
-        <li><a href="#part_1" title="individuell entwickelte Lernbegleitung">LernKnospe</a></li>
-        <li><a href="#part_2"></a></li>
-        <li><a href="#part_3">Methoden</a> </li>
-        <li><a href="#part_4">Leistungen</a> </li>
-        <li><a href="#part_5">Kontakt</a> </li>
-      </ul>
-    </nav>
-    <section id="part_1" tabindex="1">
-      <header> </header>
+    </p>
     </section>
     <section id="part_3" tabindex="3">
       <div><div>
