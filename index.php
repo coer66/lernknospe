@@ -1,3 +1,11 @@
+<?php 
+  if( isset($_COOKIE['setCookieHinweis']) ) { 
+    $showPopup = false;
+  } else {
+    $showPopup = true;
+  }
+?>
+
 <?php if($showPopup) { ?>
   <div id="cookie-popup">
     <div class="hinweis">
