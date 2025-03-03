@@ -8,6 +8,25 @@
     <meta name="keywords" content="Kinesiologie , Waldbaden , Lernbegleitung">
   </head>
   <body>
+    <?php 
+  if( isset($_COOKIE['setCookieHinweis']) ) { 
+    $showPopup = false;
+  } else {
+    $showPopup = true;
+  }
+?>
+
+<?php if($showPopup) { ?>
+  <div id="cookie-popup">
+    <div class="hinweis">
+      <p>Wir verwenden Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu.</p>
+    </div> 
+    <span class="more">
+      <a href="datenschutz.php">Details</a>
+    </span>
+    <button onclick='cookieOk()'>OK, ich bin einverstanden.</button>
+  </div>
+<?php  }; ?>
     <script type="text/javascript" src="custom.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
       rel="stylesheet">
