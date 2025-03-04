@@ -274,7 +274,7 @@ THE SOFTWARE.
                 height: 'auto',
                 minHeight: '21px',
                 bg: 'silver',
-                fg: '#ddd',
+                fg: 'black',
                 link: '#aaa',
                 position: 'bottom',
                 padding: '5px 16px',
