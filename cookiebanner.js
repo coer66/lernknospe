@@ -252,8 +252,8 @@ THE SOFTWARE.
             this.inserted = false;
             this.closed = false;
 
-            var default_text = 'We use cookies to enhance your experience. ' +
-                'By continuing to visit this site you agree to our use of cookies.';
+            var default_text = 'Diese Seite verwendet keine Cookies. ' +
+                'Dennoch kann der Provider technisch notwendige Cookies setzen; Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung zu.';
             var default_link = 'Learn more';
 
             this.default_options = {
