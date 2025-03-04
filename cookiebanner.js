@@ -84,7 +84,7 @@ THE SOFTWARE.
             if (!key || /^(?:expires|max-age|path|domain|secure)$/i.test(key)) {
                 return false;
             }
-            var expires = '';
+            var expires = '90';
             if (end) {
                 switch (end.constructor) {
                     case Number:
