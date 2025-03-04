@@ -273,7 +273,7 @@ THE SOFTWARE.
                 maskBackground: '#000',
                 height: 'auto',
                 minHeight: '21px',
-                bg: '#000',
+                bg: '#FF0000',
                 fg: '#ddd',
                 link: '#aaa',
                 position: 'bottom',
