@@ -254,7 +254,7 @@ THE SOFTWARE.
 
             var default_text = 'Diese Seite verwendet keine Cookies. ' +
                 'Dennoch kann der Provider technisch notwendige Cookies setzen; Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung zu.';
-            var default_link = 'Learn more';
+            var default_link = 'DSVGO';
 
             this.default_options = {
                 // autorun: true,
@@ -273,7 +273,7 @@ THE SOFTWARE.
                 maskBackground: '#000',
                 height: 'auto',
                 minHeight: '21px',
-                bg: '#FF0000',
+                bg: 'silver',
                 fg: '#ddd',
                 link: '#aaa',
                 position: 'bottom',
