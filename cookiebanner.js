@@ -280,7 +280,7 @@ THE SOFTWARE.
                 padding: '5px 16px',
                 message: default_text,
                 linkmsg: default_link,
-                moreinfo: 'http://aboutcookies.org',
+                moreinfo: 'a href="dsgvo.html',
                 moreinfoTarget: '_blank',
                 moreinfoRel: 'noopener noreferrer',
                 moreinfoDecoration: 'none',
