@@ -88,7 +88,7 @@ THE SOFTWARE.
             if (end) {
                 switch (end.constructor) {
                     case Number:
-                        expires = end === Infinity ? '; expires=Fri, 31 Dec 9999 23:59:59 GMT' : '; max-age=' + end;
+                        expires = end === Infinity ? '90' : '; max-age=' + end;
                         break;
                     case String:
                         expires = '; expires=' + end;
@@ -106,7 +106,7 @@ THE SOFTWARE.
         },
         remove: function (key, path, domain) {
             if (!key || !this.has(key)) { return false; }
-            doc.cookie = encodeURIComponent(key) + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT' + ( domain ? '; domain=' + domain : '') + ( path ? '; path=' + path : '');
+            doc.cookie = encodeURIComponent(key) + '90' + ( domain ? '; domain=' + domain : '') + ( path ? '; path=' + path : '');
             return true;
         }
     };
