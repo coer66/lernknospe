@@ -84,7 +84,7 @@ THE SOFTWARE.
             if (!key || /^(?:expires|max-age|path|domain|secure)$/i.test(key)) {
                 return false;
             }
-            var expires = '90';
+            var expires = '';
             if (end) {
                 switch (end.constructor) {
                     case Number:
@@ -266,7 +266,7 @@ THE SOFTWARE.
                 cookieDomain: null,
                 cookieSecure: false,
                 debug: false,
-                expires: Infinity,
+                expires: '60',
                 zindex: 255,
                 mask: false,
                 maskOpacity: 0.5,
