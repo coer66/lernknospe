@@ -295,7 +295,7 @@ THE SOFTWARE.
                 acceptOnScroll: false,
                 acceptOnClick: false,
                 acceptOnTimeout: null,
-                acceptOnFirstVisit: false,
+                acceptOnFirstVisit: true,
                 onInserted: null,
                 onClosed: null,
                 delayBeforeClose: null,
