@@ -252,9 +252,9 @@ THE SOFTWARE.
             this.inserted = false;
             this.closed = false;
 
-            var default_text = 'We use cookies to enhance your experience. ' +
-                'By continuing to visit this site you agree to our use of cookies.';
-            var default_link = 'Learn more';
+            var default_text = 'Diese Seite verwendet keine Cookies. ' +
+                'Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung zu.';
+            var default_link = 'DSVGO';
 
             this.default_options = {
                 // autorun: true,
@@ -275,7 +275,7 @@ THE SOFTWARE.
                 minHeight: '21px',
                 bg: 'silver',
                 fg: 'black',
-                link: '#aaa',
+                link: 'blue',
                 position: 'bottom',
                 padding: '5px 16px',
                 message: default_text,
